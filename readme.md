@@ -19,7 +19,7 @@ from snowflake_connect import Snowflake
 
 user=<insert username>
 password=<insert password>
-account=<insert account: 'petco.us-east-1'>
+account=<insert account>
 
 query = """
     select * 
