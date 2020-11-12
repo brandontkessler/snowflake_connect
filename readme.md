@@ -2,6 +2,8 @@
 
 ## Environment Setup
 
+### USING CONDA
+
 In a powershell:
 
 ```bash
@@ -10,6 +12,14 @@ In a powershell:
 > conda install -c conda-forge snowflake-connector-python
 ```
 
+### USING PIP
+
+```bash
+> python -m venv venv
+> source venv/bin/activate
+(venv) > pip install --upgrade pip
+(venv) > pip install -r requirements.txt
+```
 ## Running Script
 
 In a python script, run the following:
